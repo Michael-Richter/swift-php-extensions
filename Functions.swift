@@ -85,8 +85,6 @@ public func date_format(format:String, date sourceDate:NSDate=NSDate(), locale:S
 }
 
 
-
-
 @warn_unused_result
 public func number_format(num:NSNumber,_ decimals:Int=0,_ lang:String="de") -> String{
     let nf = NSNumberFormatter()
